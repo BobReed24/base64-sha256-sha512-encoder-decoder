@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder/Hasher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Encoding Method</h1>
+        <div class="options">
+            <button id="base64EncodeBtn">Base64 Encode</button>
+            <button id="base64DecodeBtn">Base64 Decode</button>
+            <button id="sha256Btn">SHA256</button>
+            <button id="sha512Btn">SHA512</button>
+        </div>
+        <textarea id="inputMessage" placeholder="Enter your message here..."></textarea>
+        <textarea id="output" readonly placeholder="Result will be displayed here..."></textarea>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
