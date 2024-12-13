@@ -33,7 +33,7 @@ public class EncoderDecoder {
 
     public static void main(String[] args) throws Exception {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
-        System.out.println("Choose an option: 1) Base64 Encode 2) Base64 Decode 3) SHA256 4) SHA512");
+        System.out.println("Choose an option: 1) Base64 Encode \n2) Base64 Decode \n3) SHA256 \n4) SHA512");
         String choice = scanner.nextLine();
         System.out.println("Enter your message:");
         String inputStr = scanner.nextLine();
