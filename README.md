@@ -13,7 +13,7 @@ This repository contains encoding and decoding scripts, including **Base64 encod
 - **Go**: `main.go`
 - **Haskell**: `main.hs`
 - **HTML**: `app.js`
-- **Java**: `main.java`
+- **Java**: `EncoderDecoder.java`
 - **JavaScript**: `main.js`
 - **Kotlin**: `main.kts`
 - **Lua**: `main.lua`
