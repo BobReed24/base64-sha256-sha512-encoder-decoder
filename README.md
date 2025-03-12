@@ -49,3 +49,5 @@ This repository contains encoding and decoding scripts, including **Base64 encod
 ## Contributing
 
 Feel free to open an issue or submit a pull request if you have improvements or additions to the project.
+
+Pretty easy.
