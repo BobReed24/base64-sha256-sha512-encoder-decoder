@@ -1,4 +1,4 @@
-use std::io::{self, Write};
+use std::io::{self};
 use base64::{encode, decode};
 use sha2::{Sha256, Sha512, Digest};
 
