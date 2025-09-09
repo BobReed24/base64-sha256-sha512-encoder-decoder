@@ -1,6 +1,6 @@
 ## Requirements
 1. Scala 2.11.12+
-2. SBT 1.11.6
+2. SBT 1.11.6+
 ## How to use
 
 1. To start SBT server run
