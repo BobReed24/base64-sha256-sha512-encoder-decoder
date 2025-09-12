@@ -6,9 +6,9 @@ This repository contains encoding and decoding scripts, including **Base64 encod
 
 - **Elixir**: `main.ex`
 - **R**: `main.r`
-- **Ada**: `main.adb`
+- **Ada**: `encoder_decoder.adb`
 - **C**: `main.c`
-- **C#**: `main.csharp`
+- **C#**: `main.cs`
 - **C++**: `main.cpp`
 - **Go**: `main.go`
 - **Haskell**: `main.hs`
