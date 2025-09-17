@@ -14,11 +14,13 @@ hash_sha512 <- function(message) {
   return(openssl::sha512(message))
 }
 
-message <- readline(prompt="Enter your message: ")
+message <- readline(prompt = "Enter your message: ")
 cat("Choose encoding method: 1) Base64 Encode 2) Base64 Decode 3) SHA256 4) SHA512\n")
-choice <- as.integer(readline())
+choice <- suppressWarnings(as.integer(readline()))
 
-if (choice == 1) {
+if (is.na(choice)) {
+  cat("Invalid input. Please enter a number 1–4.\n")
+} else if (choice == 1) {
   print(paste("Encoded Base64:", encode_base64(message)))
 } else if (choice == 2) {
   print(paste("Decoded Base64:", decode_base64(message)))
